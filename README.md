@@ -27,19 +27,19 @@ The system allows restaurants to be onboarded, manage their menus, and process c
 ---
 ## 📦 Project Structure
 src
-├── main
-│ ├── java
-│ │ └── com.foodapp.foodorderingsystem
-│ │ ├── controller 
-│ │ ├── model # domain classes
-│ │ ├── service # business logic
-│ │ ├── storage # in-memory datastore
-│ │ ├── strategy # strategy pattern implementations
-│ │ └── FoodOrderingSystemApplication.java 
-├── test
-│ └── java
-│ └── com.foodapp.foodorderingsystem
-│ └── FoodOrderingSystemApplicationTests.java
+├── main               
+│ ├── java                
+│ │ └── com.foodapp.foodorderingsystem                
+│ │ ├── controller                           
+│ │ ├── model # domain classes                    
+│ │ ├── service # business logic                          
+│ │ ├── storage # in-memory datastore                       
+│ │ ├── strategy # strategy pattern implementations                            
+│ │ └── FoodOrderingSystemApplication.java                            
+├── test                                        
+│ └── java                                    
+│ └── com.foodapp.foodorderingsystem                               
+│ └── FoodOrderingSystemApplicationTests.java                               
 
 -----
 
